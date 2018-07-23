@@ -1,0 +1,21 @@
+{
+    "name": "toshcn/yii2-configurator",
+    "description": "一个简单的配置管理组件",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","configurator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "toshcn",
+            "email": "toshcn@foxmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "toshcn\\yii2\\configurator\\": "src"
+        }
+    }
+}
