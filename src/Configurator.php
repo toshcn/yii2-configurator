@@ -1,4 +1,8 @@
 <?php
+/**
+ * @link https://gitee.com/toshcn/yii2-ant-menu
+ * @copyright Copyright (c) 2018 len168.com
+ */
 
 namespace toshcn\yii2\configurator;
 
