@@ -32,12 +32,11 @@ Usage
     'config' => [
         'class' => 'toshcn\yii2\configurator\Configurator',
     ],
-    ……
 ]
 
 ```
 
-添加配置:
+添加配置：基础模板在config->console.php，高级模板在console->config->main.php
 ```php
 Yii::$app->config->createConfig('myconfig', json_encode(['key' => 'value']), 'my first config');
 ```
