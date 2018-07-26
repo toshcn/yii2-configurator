@@ -16,6 +16,8 @@ use yii\di\Instance;
  */
 class Configurator extends Object
 {
+    public $version = '1.0.0';
+    
     /**
      * @var string 缓存组件
      */
