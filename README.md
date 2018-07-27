@@ -33,7 +33,11 @@ Usage
         'class' => 'toshcn\yii2\configurator\Configurator',
     ],
 ]
+```
 
+运行数据迁移：
+```
+php yii migrate --migrationPath=@vendor/toshcn/yii2/configurator/migrations
 ```
 
 添加配置：基础模板在config->console.php，高级模板在console->config->main.php
